@@ -1,0 +1,3 @@
+/home/liulei/share/webserver/myserver/cmake-build-debug/CMakeFiles/myserver.dir
+/home/liulei/share/webserver/myserver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liulei/share/webserver/myserver/cmake-build-debug/CMakeFiles/rebuild_cache.dir

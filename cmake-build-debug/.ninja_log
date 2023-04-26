@@ -1,0 +1,24 @@
+# ninja log v5
+594	901	7041126278227035	myserver.exe	d7c38aeb32ed623b
+22	799	1682495769567588396	build.ninja	6e490c09dd9f7354
+0	649	1682492820463716989	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+649	720	1682492820535714621	myserver	e19d6dfee25d2175
+0	664	1682489660399211264	CMakeFiles/myserver.dir/src/User.cpp.o	3011544967eec949
+0	28	1682495769567588396	build.ninja	8fa3212059b78727
+1	991	1682495770563553614	CMakeFiles/myserver.dir/src/timer.cpp.o	5fe05092c3c0d3a
+1	993	1682495770567553475	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+1	1549	1682495797530613207	CMakeFiles/myserver.dir/src/timer.cpp.o	5fe05092c3c0d3a
+1	1598	1682495797578611536	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+1	614	1682495812258100690	CMakeFiles/myserver.dir/src/timer.cpp.o	5fe05092c3c0d3a
+1	482	1682495899399082370	CMakeFiles/myserver.dir/src/timer.cpp.o	5fe05092c3c0d3a
+1	528	1682495899443080852	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+3	1693	1682496722275286007	CMakeFiles/myserver.dir/src/timer.cpp.o	5fe05092c3c0d3a
+2	1699	1682496722279285874	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+0	525	1682496747362449536	CMakeFiles/myserver.dir/src/timer.cpp.o	5fe05092c3c0d3a
+0	1591	1682496848499080640	CMakeFiles/myserver.dir/src/timer.cpp.o	5fe05092c3c0d3a
+0	1666	1682496848575078111	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+1666	1721	1682496848631076247	myserver	2b2f6ba2492c6a35
+0	736	1682496869178392402	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+736	800	1682496869242390273	myserver	2b2f6ba2492c6a35
+0	553	1682496881865970222	CMakeFiles/myserver.dir/src/main.cpp.o	87b32a6043f7da3a
+553	616	1682496881925968225	myserver	2b2f6ba2492c6a35
