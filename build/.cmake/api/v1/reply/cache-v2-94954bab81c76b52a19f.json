@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/liulei/share/webserver/myserver/cmake-build-debug"
+			"value" : "/home/liulei/share/webserver/cppwebserver/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liulei/share/webserver/myserver/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/liulei/share/webserver/cppwebserver/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/liulei/share/webserver/myserver"
+			"value" : "/home/liulei/share/webserver/cppwebserver"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liulei/share/webserver/myserver/cmake-build-debug"
+			"value" : "/home/liulei/share/webserver/cppwebserver/build"
 		},
 		{
 			"name" : "myserver_IS_TOP_LEVEL",
@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liulei/share/webserver/myserver"
+			"value" : "/home/liulei/share/webserver/cppwebserver"
 		}
 	],
 	"kind" : "cache",

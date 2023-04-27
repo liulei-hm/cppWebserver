@@ -1,4 +1,4 @@
-# Install script for directory: /home/liulei/share/webserver/myserver
+# Install script for directory: /home/liulei/share/webserver/cppwebserver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liulei/share/webserver/myserver/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liulei/share/webserver/cppwebserver/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

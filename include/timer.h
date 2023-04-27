@@ -20,7 +20,19 @@ using namespace std::chrono;
 struct TimerNodeBase{
     time_t expire; //到达时间
     int64_t tid;   //用来唯一标识定时器
+    bool operator < (const TimerNodeBase &n) const{
+        if(expire < n.expire) //按超时时间排序
+            return true;
+        else if(expire > n.expire)
+            return false;
+        else if(expire == n.expire)
+        {
+            return tid<n.tid; //超时时间相同，此时id更小的排在前面
+        }
+        return false;
+    }
 };
+
 //c++14 find可以使用set中数据结构中的变量作为key
 /*
  * 1、回调方法，定时器时间到达后执行
@@ -30,9 +42,10 @@ struct TimerNode : public TimerNodeBase{
     Callback func;
     time_t msec; //定时时间，毫秒
     bool isCircle = false;
+
 };
 
-bool operator < (const TimerNodeBase &nl,const TimerNodeBase &nr);
+//bool operator < (const TimerNodeBase &nl,const TimerNodeBase &nr);
 
 class Timer{
 public:

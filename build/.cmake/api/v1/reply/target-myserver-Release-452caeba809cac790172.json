@@ -49,7 +49,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/liulei/share/webserver/myserver/include"
+					"path" : "/home/liulei/share/webserver/cppwebserver/include"
 				}
 			],
 			"language" : "CXX",
@@ -65,8 +65,7 @@
 			[
 				0,
 				1,
-				2,
-				3
+				2
 			]
 		}
 	],
@@ -101,16 +100,15 @@
 			[
 				0,
 				1,
-				2,
-				3
+				2
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				4,
-				5
+				3,
+				4
 			]
 		}
 	],
@@ -120,12 +118,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/User.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/hightimer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -147,7 +139,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/hightimer.h",
+			"path" : "include/hightimer.h",
 			"sourceGroupIndex" : 1
 		}
 	],

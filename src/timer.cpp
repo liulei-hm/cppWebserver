@@ -2,17 +2,19 @@
 // Created by liulei on 23-4-26.
 //
 #include "timer.h"
-bool operator < (const TimerNodeBase &nl,const TimerNodeBase &nr){
-    if(nl.expire < nr.expire) //按超时时间排序
-        return true;
-    else if(nl.expire > nr.expire)
-        return false;
-    else if(nl.expire == nr.expire)
-    {
-        return nl.tid<nr.tid; //超时时间相同，此时id更小的排在前面
-    }
-    return false;
-}
+
+//bool operator < (const TimerNodeBase &nl,const TimerNodeBase &nr){
+//    if(nl.expire < nr.expire) //按超时时间排序
+//        return true;
+//    else if(nl.expire > nr.expire)
+//        return false;
+//    else if(nl.expire == nr.expire)
+//    {
+//        return nl.tid<nr.tid; //超时时间相同，此时id更小的排在前面
+//    }
+//    return false;
+//}
+
 int64_t Timer::gid = 0;
 
 time_t Timer::GetTick() {
